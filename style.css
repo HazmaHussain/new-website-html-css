@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh;
+    background-image: url(./assires/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80vw;
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 50px;
+    border-radius: 15px;
+}
+
+.navbar-link nav {
+    margin: 12.5px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.navbar-link a {
+    font-weight: bold;
+    text-decoration: none;
+    color: orange;
+
+}
+
+.navbar-link a:hover {
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    background-color: transparent;
+    margin: 12.5px 10px;
+    border-radius: 10px;
+
+}
+
+.search-bar input[placeholder] {
+    color: red;
+}
+
+.search-bar button {
+    border: none;
+    background-color: transparent;
+
+
+}
+
+.search-bar img {
+    width: 30px;
+    height: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 600px repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+    gap: 10px;
+
+    width: 90vw;
+    margin: 80px auto;
+}
+
+.grid-container div {
+    /* border: 2px solid black; */
+    border-radius: 20px;
+}
+
+.card-1 {
+    border: 2px solid red;
+    height: 500px;
+    grid-row: 1/2 span;
+    background-image: url(./assires/card-1bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.card-info-1 {
+    color: white;
+
+}
+
+.card-1 img {
+    width: 50px;
+    height: 50px;
+}
+
+.card-date-1 {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.card-ditail-1 {
+    margin: 350px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.card-ditail-1 p {
+    width: 70%;
+}
+
+.card-ditail-1 button {
+    background-color: orange;
+    border-radius: 20px;
+    padding: 15px;
+
+}
+
+.card-2 {
+    border: 2px solid red;
+    background-image: url(./assires/card-2bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 120px
+}
+
+.card-2 img {
+    width: 30px;
+    height: 30px;
+}
+
+.card-info {
+    color: white;
+}
+
+.card-date {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.card-ditail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-ditail p {
+    width: 70%;
+}
+
+.card-ditail button {
+    background-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.card-3 {
+    border: 2px solid red;
+    background-image: url(./assires/card-3bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: end;
+
+}
+
+.card-3 img {
+    width: 30px;
+    height: 30px;
+}
+
+/* .card-info-3{
+    color: white;
+} 
+.card-date-3{
+
+    display: flex;
+    align-items: center;
+
+} 
+.card-ditail-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-ditail-3 p{
+width: 70%;
+}
+.card-ditail-3 button{
+    background-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+
+} */
+.card-4 {
+    border: 2px solid red;
+    background-image: url(./assires/card-4bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: end;
+}
+
+.card-4 img {
+    width: 30px;
+    height: 30px;
+}
+
+/* .card-info-4{
+    color: white;
+} 
+.card-date-4{
+
+    display: flex;
+    align-items: center;
+
+} 
+.card-ditail-4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-ditail-4 p{
+width: 70%;
+}
+.card-ditail-4 button{
+    background-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+
+} */
+.card-5 {
+    border: 2px solid red;
+    background-image: url(./assires/card-5bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: end;
+
+}
+
+.card-5 img {
+    width: 30px;
+    height: 30px;
+}
+
+/* .card-info-5{
+    color: white;
+} 
+.card-date-5{
+    display: flex;
+    align-items: center;
+
+} 
+.card-ditail-5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-ditail-5 p{
+width: 70%;
+}
+.card-ditail-5 button{
+    background-color: orange;
+    border-radius: 20px;
+    padding: 10px;
+
+} */
+.highlight-text {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: orangered;
+    text-shadow: 2px 3px 3px;
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+hr {
+    width: 95vw;
+    margin: auto;
+}
+
+.news {
+    margin: 20px 5px;
+    width: 50vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+
+}
+
+.news img {
+    /* border: 2px solid red; */
+    border-radius: 20px;
+}
+
+.news-1 {
+    grid-row: 1/2 span;
+}
+
+.news-1 img {
+    height: 350px;
+    width: 300px;
+}
+
+.news-2 img {
+    /* height: 250px; */
+    width: 250px;
+
+}
+
+.news-3 img {
+    height: 250px;
+    width: 250px;
+
+}
+
+.main-content {
+    display: flex;
+}
+
+.stay-connected {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 35vh;
+    width: 31vw;
+    margin: 20px auto;
+}
+
+/* .stay-connected div{
+    border: 2px solid red;
+
+} */
+.stay-connected img {
+    height: 150px;
+    width: 150px;
+    border-radius: 8px;
+}
+
+.socail-img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+.line-breck {
+    width: 45vw;
+    border-color: orange;
+}
+
+.viewe-info {
+    display: flex;
+}
+
+.viewe-info img {
+    height: 100px;
+    width: 200px;
+    margin: 10px 0;
+}
+
+.viewe-detals {
+    margin: 10px 0;
+    width: 500px;
+}
+
+.viewe-logo {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 100px;
+}
+
+.login-logo {
+    display: flex;
+    /* text-align: flex-end; */
+}
+
+.login-logo span {
+    margin: 30px 0;
+}
+
+.login-logo img {
+    height: 50px;
+    width: 50px;
+}
+
+.date-logo {
+    display: flex;
+    margin: 15px 0;
+    /* text-align: flex-end; */
+}
+
+.date-logo span {
+    margin: 20px 0;
+}
+
+.date-logo img {
+    width: 30px;
+    height: 30px;
+}
+.footer-info{
+    height: 50vh;
+    width: 99vw;
+    margin: 0 auto;
+    background-image: url(./assires/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer-detal{
+    border: 3px solid red;
+    border-radius:10px ;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 70vw;
+    height: 40vh;
+    margin: auto;
+    display: block;
+   
+}
+.socail-detal{
+     display: flex;
+   justify-content: space-around;
+}
+.socail-detal h3{
+margin: 10px 0;
+}
+.socail-detal img{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+}
+.socail-link h3{
+    margin: 10px 0;
+}
+.socail-link{
+display: flex;
+gap: 10px;
+}
+.footer-detal{
+display: block;
+}
+.profile{
+    display: flex;
+}
+.profile img{
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.profile-name h3{
+    color: red;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+.footer-last{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
