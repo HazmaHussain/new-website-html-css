@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    background-color: black;
+}
 header {
     height: 100vh;
     background-image: url(bg-image.jpg);
@@ -15,7 +17,7 @@ header {
     justify-content: space-between;
     margin: auto;
     width: 80vw;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.4);
     height: 50px;
     border-radius: 15px;
 }
@@ -484,5 +486,6 @@ display: block;
     justify-content: center;
 
 }
+
 
 
