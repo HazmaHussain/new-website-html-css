@@ -5,7 +5,7 @@
 
 header {
     height: 100vh;
-    background-image: url(./assires/bg-image.jpg);
+    background-image: url(bg-image.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -87,7 +87,7 @@ header {
     border: 2px solid red;
     height: 500px;
     grid-row: 1/2 span;
-    background-image: url(./assires/card-1bg.jpg);
+    background-image: url(card-1bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -130,7 +130,7 @@ header {
 
 .card-2 {
     border: 2px solid red;
-    background-image: url(./assires/card-2bg.jpg);
+    background-image: url(card-2bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -178,7 +178,7 @@ header {
 
 .card-3 {
     border: 2px solid red;
-    background-image: url(./assires/card-3bg.jpg);
+    background-image: url(card-3bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -216,7 +216,7 @@ width: 70%;
 } */
 .card-4 {
     border: 2px solid red;
-    background-image: url(./assires/card-4bg.jpg);
+    background-image: url(card-4bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -253,7 +253,7 @@ width: 70%;
 } */
 .card-5 {
     border: 2px solid red;
-    background-image: url(./assires/card-5bg.png);
+    background-image: url(card-5bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -427,7 +427,7 @@ hr {
     height: 50vh;
     width: 99vw;
     margin: 0 auto;
-    background-image: url(./assires/footer-bg.jpg);
+    background-image: url(footer-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -484,4 +484,5 @@ display: block;
     justify-content: center;
 
 }
+
 
